@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('top',function(){
+    return view('top');
+});
+
+
+
+
+
+Route::get('top','BasesController@base');
+Route::post('made', 'BasesController@made')->name('make.post');

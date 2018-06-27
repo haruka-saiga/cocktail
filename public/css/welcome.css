@@ -37,8 +37,5 @@ body {
 }
 
 .btn:active{
-     background-color: transparent !important;
-     color: #F8F8FF !important;
-     border: 1px solid transparent;
-     font-family: 'Homemade Apple', cursive;
+    color: #F8F8FF;
 }

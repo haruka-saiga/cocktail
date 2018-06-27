@@ -16,7 +16,7 @@
     </div>
     
     <div class="text-center">
-      <a href="/top" class="btn btn-default btn-sm" role="button">Let's make your own cocktail! </a>
+      <a href="/top" class="btn" role="button">Let's make your own cocktail! </a>
     </div>
       
         </div>

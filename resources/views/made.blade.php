@@ -12,6 +12,7 @@
 
 <h1>What you made is ...</h1>
 <h1>{{$a->cocktail_name}}</h1>
+<img src="css/image/{{$a->image}}">
 
 </div>
 

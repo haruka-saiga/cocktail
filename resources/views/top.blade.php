@@ -27,7 +27,7 @@
             {!! Form::select('mixer_id', $mixers, null, ['class' => 'form-control']) !!}
         </div>
 
-        {!! Form::submit('Make', ['class' => 'btn btn-primary btn-block']) !!}
+        {!! Form::submit('Make', ['class' => 'btn  btn-block']) !!}
            
              
         {!! Form::close() !!}

@@ -1,5 +1,7 @@
 <header>
     <nav class="navbar navbar-inverse navbar-static-top">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+           <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
         <div class="container">
             <div class="navbar-header">
                

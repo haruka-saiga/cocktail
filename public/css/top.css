@@ -1,0 +1,58 @@
+h1{
+    color: 	#F8F8FF;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center; 
+}
+
+body{
+background-color: #FFB6C1;
+
+}
+
+.a {
+    position: absolute;
+    max-width: 1200px !important;
+    height:100px;
+    width:100%;
+    background-image:url(image/cocktail.jpg) !important;}
+
+.article_inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFB6C1;
+    text-align: center; 
+    max-width: 1200px;
+}
+
+.btn{
+    background-color: transparent;   
+      color: #F8F8FF;
+       border: 1px solid transparent;
+       font-family: 'Homemade Apple', cursive;
+       font-size: 35px;
+       text-align: center; 
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #F8F8FF;
+     border: 1px solid transparent;
+     font-family: 'Homemade Apple', cursive;
+     font-size: 40px;
+}
+
+.btn:active{
+     background-color: transparent !important;
+     color: #F8F8FF !important;
+     border: 1px solid transparent;
+     font-family: 'Homemade Apple', cursive;
+     text-align: center;
+}
+
+.form-inline{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+

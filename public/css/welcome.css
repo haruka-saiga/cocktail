@@ -1,0 +1,44 @@
+body {
+    background-image:url(image/cocktail.jpg);
+    background-size: cover;
+}
+
+.bg-mask{
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    background-color: transparent;
+}
+
+
+.jumbotron{
+    background-color: transparent;
+    font-family: 'Homemade Apple', cursive;
+    margin-top:auto; margin-bottom: auto;
+}
+
+.text-center{
+    color: #F8F8FF; 
+}
+
+.btn{
+      background-color: transparent;   
+      color: #F8F8FF;
+       border: 1px solid transparent;
+       font-family: 'Homemade Apple', cursive;
+       font-size: 35px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #F8F8FF;
+     border: 1px solid transparent;
+     font-family: 'Homemade Apple', cursive;
+     font-size: 40px;
+}
+
+.btn:active{
+     background-color: transparent !important;
+     color: #F8F8FF !important;
+     border: 1px solid transparent;
+     font-family: 'Homemade Apple', cursive;
+}

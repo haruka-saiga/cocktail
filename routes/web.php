@@ -25,4 +25,7 @@ Route::get('top',function(){
 
 
 Route::get('top','BasesController@base');
-Route::post('made', 'BasesController@made')->name('make.post');
+Route::post('made','BasesController@search')->name('search.post');
+
+
+

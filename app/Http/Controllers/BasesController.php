@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Base;
 use App\Mixer;
+use App\Cocktail;
 use Illuminate\Support\Facades\DB;
 
 
@@ -17,16 +18,15 @@ class BasesController extends Controller
     }
     
     
-       public function sotre(Request $request){
-               $base_id = 
-               $mixer_id = 
-       }
+    
+
+    public function search(Request $request) {
        
-       public function made(){
-           
-           $cocktail = DB::table('cocktails')->where('base_id','' && 'mixer_id','')->value('cocktail_name');
-           return view('made',['cocktails'=> $cocktails]);
-           
-       }
+
+        $a=Cocktail::where('base_id',$request->base_id)->where('mixer_id',$request->mixer_id)->get()->first();
+    
+      
+        return view('made',compact('a'));
+    }
  
 }

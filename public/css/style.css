@@ -1,0 +1,11 @@
+.navbar{
+    background-color: transparent;
+    color: #F8F8FF;
+    border: 1px solid transparent; 
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar:hover{
+   color: #F8F8FF; 
+   font-family: 'Amatic SC', cursive;
+}

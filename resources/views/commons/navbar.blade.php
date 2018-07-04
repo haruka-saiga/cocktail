@@ -12,7 +12,7 @@
                 <ul class="nav navbar-nav navbar-right">
                 
                
-                    <a class="navbar-brand" href="/">Register</a>
+                    <a class="navbar-brand" href="/">Register Change</a>
                    
                 </ul>
             </div>    
